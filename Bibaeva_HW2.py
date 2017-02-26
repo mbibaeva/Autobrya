@@ -29,7 +29,7 @@ def get_texts_for_lang(lang, n = 10): #я немного поправила фу
 langs = ['en', 'fr', 'de', 'ru', 'uk', 'be']        
 wiki_texts = {}
 for lang in langs:
-    wiki_texts[lang] = get_texts_for_lang(lang, 5)
+    wiki_texts[lang] = get_texts_for_lang(lang, 20)
     print (lang, len(wiki_texts[lang]))
 print('finish')
 
