@@ -1,1 +1,8 @@
-define = 
+
+define Stressed [ o | e ];
+read lexc spanish.lexc
+define Lexicon;
+define Replacement e -> i || ? _ ? i r "^" Stressed;
+define Cleanup i r "^" -> 0;
+define Grammar Lexicon .o. Replacement .o. Cleanup;
+regex Grammar;
