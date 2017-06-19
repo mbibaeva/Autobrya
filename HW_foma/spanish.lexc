@@ -1,0 +1,18 @@
+Multichar_Symbols  +INF +PRS1SG +PRS2SG +PRS3SG +PRS1PL +PRS2PL +PRS3PL
+
+LEXICON Root
+
+
+pedir VInf;
+medir VInf;
+renir VInf;
+
+LEXICON VInf
+
++INF:^ir
++PRS1SG:^o #;
++PRS2SG:^es #;
++PRS3SG:^es #;
++PRS1PL:^imoS ;
++PRS2PL:^Is #;
++PRS3PL:^en #;
